@@ -1,7 +1,7 @@
 # DWConv
 
-![DWConv](./DWConv.png)
+![DWConv](./figs/DWConv.png)
 
 ## DWUNet
 
-![DWUNet](./DWUNet.png)
+![DWUNet](./figs/DWUNet.png)

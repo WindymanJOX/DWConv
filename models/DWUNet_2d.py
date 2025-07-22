@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 
 class DWConvBlock(nn.Module):
@@ -136,8 +135,10 @@ class DWUNet(nn.Module):
         return self.decoder(x, skips)        
 
 
-if __name__ == '__main__':
-    model = DWUNet(1, 2)
-    data = torch.rand((1,1,128,128))
-    output = model(data)
-    print(output.shape)
+# if __name__ == '__main__':
+#     model = DWUNet(1, 2)
+    # with open('./network_structure.txt', 'a') as f:
+    #     print(model, file=f)
+    # data = torch.rand((1,1,128,128))
+    # output = model(data)
+    # print(output.shape)
